@@ -1,0 +1,175 @@
+/* Carrossel de imagens  */
+img.imagem{
+    width: 100%;
+}
+
+div.slideshow-contanier { 
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+div.meuSlide {
+    display: none;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+ }
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+ }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+ /* Menu */
+nav.menu{
+  background-color:#0d1546;
+  position: relative;
+  margin:0px;
+}
+
+.menu ul {
+  list-style: none;
+  margin:0px;
+  padding:0px;
+  display:flex;
+  max-width:1800px;
+  justify-content:center;
+}
+
+.menu li{
+  margin:0px;
+}
+
+.menu a {
+  display:block;
+  padding:20px;
+  color:#FFFFFF;
+  text-decoration:none;
+}
+
+.menu a:hover {
+  background-color:#ffffff;
+  color:#0d1546;
+}
+
+/* Gif */
+.gif-fixo {
+    position: fixed; /* Fixa o elemento em relação à janela de visualização (viewport) */
+    bottom: 20px;    /* Define a distância do fundo da tela */
+    right: 10px;     /* Define a distância da direita da tela */
+    top: 200px;      /* Define a altura em relação ao topo  */
+    width: 200px;    /* Define a largura do GIF (opcional, ajuste conforme necessário) */
+    z-index: 1;   /* Garante que o GIF fique abaixo do header */
+}
+
+/* Estrutura */
+header{
+    background-color:#0d1546;
+    position: relative;
+    max-width:1800px;
+    z-index: 2;
+}
+
+body {
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin:0;
+    padding:0;
+    color:#ffffff;
+}
+
+section{
+	background-color:#5271a1 ;
+}
+
+/* Texto  */
+div.escrita{
+    margin-left:200px;
+    margin-right:200px;
+    max-width:1800px;
+    padding:50px;
+    background-color:#2d4882;
+}
+
+/* Podcast */
+div.audio{
+    text-align: center;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Rodapé */
+footer{
+   margin:0px;
+   max-width:1800px;
+   padding:30px;
+   background-color:#0d1546;
+   text-align: center; 
+   margin-bottom:0px;
+}
