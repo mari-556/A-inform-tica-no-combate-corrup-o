@@ -81,6 +81,7 @@ div.meuSlide {
   to {opacity: 1}
 }
 
+
  /* Menu */
 nav.menu{
   background-color:#0d1546;
@@ -113,6 +114,7 @@ nav.menu{
   color:#0d1546;
 }
 
+
 /* Gif */
 .gif-fixo {
     position: fixed; /* Fixa o elemento em relação à janela de visualização (viewport) */
@@ -122,6 +124,7 @@ nav.menu{
     width: 200px;    /* Define a largura do GIF (opcional, ajuste conforme necessário) */
     z-index: 1;   /* Garante que o GIF fique abaixo do header */
 }
+
 
 /* Estrutura */
 header{
@@ -145,6 +148,7 @@ section{
 	background-color:#5271a1 ;
 }
 
+
 /* Texto  */
 div.escrita{
     margin-left:200px;
@@ -159,10 +163,13 @@ div.audio{
     text-align: center;
 }
 
+
+/* Referências bibliográficas */
 a{
   color: #ffffff;
   text-decoration: none;
 }
+
 
 /* Rodapé */
 footer{
